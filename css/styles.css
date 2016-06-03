@@ -6,7 +6,7 @@ body {
   padding: 20px;
   padding-left: 80px;
   padding-right: 80px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   padding-top: 50px;
   color: #000000;
 }
@@ -19,15 +19,6 @@ body {
   padding-bottom: 50pt;
 }
 
-#first-name {
-  margin-right: 20pt;
-  margin-bottom: 10pt;
-}
-
-#dates {
-  padding-bottom: 20pt;
-}
-
 .calendar {
   padding-bottom: 50pt;
 }
@@ -38,4 +29,13 @@ h2 {
 
 h1, h2 {
   text-align: center;
+}
+
+.navbar-inverse {
+  background-color: #3333FF;
+  border-color: #3333FF;
+}
+
+.fa-facebook-official, .fa-twitter, .fa-pinterest, .fa-instagram {
+  color: #000000
 }
