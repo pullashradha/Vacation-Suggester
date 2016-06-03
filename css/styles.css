@@ -7,23 +7,34 @@ body {
   padding-left: 80px;
   padding-right: 80px;
   padding-bottom: 150px;
-  text-align: center;
   padding-top: 50px;
   color: #000000;
 }
 
-#japan, #india, #peru {
+#japan, #peru, #south-africa, #south-korea {
   display: none;
 }
 
 #disability {
+  padding-bottom: 50pt;
+}
+
+#first-name {
+  margin-bottom: 20pt;
+}
+
+#dates {
   padding-bottom: 20pt;
 }
 
-.date {
+.calendar {
   padding-bottom: 50pt;
 }
 
 h2 {
-  padding-bottom: 50pt;
+  padding-bottom: 25pt;
+}
+
+h1, h2 {
+  text-align: center;
 }

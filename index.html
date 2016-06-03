@@ -14,103 +14,129 @@
 <!--Questions Start-->
     <form id="content">
       <h1>Need a Vacation?</h1>
-      <h2>Let us suggest one for you!</h2>
-      <div class="form-group">
-        <label for="first-name"><strong>First Name</strong></label>
-        <input id="first-name" type="text">
-      </div>
-      <div class="form-group">
-        <label for="last-name"><strong>Last Name</strong></label>
-        <input id="last-name" type="text">
-      </div>
-      <div id="gender">
-        <h4>What is your gender?</h4>
-        <select class="form-control" id="gender">
-          <option>Woman</option>
-          <option>Man</option>
-          <option>Agender</option>
-          <option>Nonbinary</option>
-        </select>
-      </div>
-      <div id="budget">
-        <h4>What is your budget (excluding airline ticket and transportation costs to destination)?</h4>
-        <select class="form-control" id="budget">
-          <option>$500-$1000</option>
-          <option>$1000-$2000</option>
-          <option>$2000-$3000</option>
-        </select>
-      </div>
-      <div id="food">
-        <h4>Do you have any food restrictions (non-allergic)?</h4>
-        <select class="form-control" id="food">
-          <option>Vegetarian</option>
-          <option>Vegan</option>
-          <option>Excluding Beef</option>
-          <option>Excluding Pork</option>
-          <option>Halal/Kosher</option>
-        </select>
-      </div>
-      <div id="environment">
-        <h4>What kind of environment would you prefer?</h4>
-        <div class="radio">
-          <label>
-            <input type="radio" name="plan" value="urban" checked>
-            Bustling City
-          </label>
+      <h2>Let us suggest the best place for you to go!</h2>
+      <div class="row">
+<!-- First Column Start -->
+        <div class="col-sm-6">
+          <div class="form-group">
+            <label for="first-name"><strong>First Name</strong></label>
+            <input id="first-name" type="text">
+          </div>
+          <div class="form-group">
+            <label for="last-name"><strong>Last Name</strong></label>
+            <input id="last-name" type="text">
+          </div>
+          <div id="gender">
+            <h4>What time of year will you be travelling?</h4>
+            <select class="form-control" id="gender">
+              <option></option>
+              <option>Spring</option>
+              <option>Summer</option>
+              <option>Fall</option>
+              <option>Winter</option>
+            </select>
+          </div>
+          <div id="dates">
+            <h4>How long do you plan to stay?</h4>
+            <select class="form-control" id="dates">
+              <option></option>
+              <option>3-5 days</option>
+              <option>1 week</option>
+              <option>2 weeks</option>
+              <option>3+ weeks</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="born"><strong>Travel Dates</strong></label>
+            <input id="calendar" class="form-control" type="date">
+          </div>
+          <div id="budget">
+            <h4>What is your budget (excluding airline ticket and transportation costs to destination)?</h4>
+            <select class="form-control" id="budget">
+              <option></option>
+              <option>$500-$1000</option>
+              <option>$1000-$2000</option>
+              <option>$2000-$3000</option>
+            </select>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="plan" value="combination">
-            Bustling City and Rural/Isolated Area
-          </label>
+<!-- First Column End -->
+<!-- Second Column Start -->
+        <div class="col-6-sm">
+          <div id="environment">
+            <h4>What kind of environment would you prefer?</h4>
+            <div class="radio">
+              <label>
+                <input type="radio" name="plan" value="urban" checked>
+                Bustling City
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="plan" value="combination">
+                Bustling City and Rural Area
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="plan" value="rural">
+                Rural Area
+              </label>
+            </div>
+          </div>
+          <div id="adventure">
+            <h4>What kind of actvities do you want to be available at your destination?</h4>
+            <select class="form-control" id="adventure">
+              <option></option>
+              <option>Museums/Historical Sites</option>
+              <option>Nature Trails/Zoos/Aquariums/Safari</option>
+              <option>Markets/Shopping/Local Nightlife</option>
+            </select>
+          </div>
+          <div id="food">
+            <h4>Do you have any food restrictions (non-allergic)?</h4>
+            <select class="form-control" id="food">
+              <option></option>
+              <option>Vegan</option>
+              <option>Vegetarian</option>
+              <option>Excluding Beef</option>
+              <option>Excluding Pork</option>
+              <option>Halal/Kosher</option>
+            </select>
+          </div>
+          <div id="disability">
+            <h4>Do you need any disability access?</h4>
+            <select class="form-control" id="disability">
+              <option></option>
+              <option>Yes, I will be travelling alone</option>
+              <option>Yes, but I will be accompanied by a companion(s) who can help</option>
+              <option>No</option>
+            </select>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="plan" value="rural">
-            Rural/Isolated Area
-          </label>
-        </div>
       </div>
-      <div id="adventure">
-        <h4>What kind of actvities do you hope to do?</h4>
-        <select class="form-control" id="adventure">
-          <option>Museums/Informational Centers</option>
-          <option>Historical Sites/Ancient Ruins</option>
-          <option>Nature Trails/Zoos/Aquariums</option>
-          <option>Markets/Shopping/Local Scenes</option>
-          <option>Cuisine Adventure</option>
-        </select>
-      </div>
-      <div id="disability">
-        <h4>Do you need any disability access?</h4>
-        <select class="form-control" id="disability">
-          <option>Yes, I will be travelling alone</option>
-          <option>Yes, but I will be accompanied by a companion(s) who can help</option>
-          <option>No</option>
-        </select>
-      </div>
-      <div class="form-group date">
-        <label for="date"><strong>Travel Dates</strong></label>
-        <input id="date" class="form-control" type="date">
-      </div>
-      <button type="submit" class="btn">Vacation Suggestion!</button>
+<!-- Second Column End -->
+      <button type="submit" class="btn" id="submit">Submit!</button>
     </form>
 <!--Questions End-->
 <!-- Destinations Start -->
     <div id="destinations">
       <div id="japan">
-        <h1>Japan</h1>
-      </div>
-      <div id="india">
-        <h1>India</h1>
+        <h1>Tokyo, Japan</h1>
       </div>
       <div id="peru">
-        <h1>Peru</h1>
+        <h1>Machu Picchu, Peru</h1>
+      </div>
+      <div id="south-africa">
+        <h1>Johannesburg, South Africa</h1>
+      </div>
+      <div id="south-korea">
+        <h1>Seoul, South Korea</h1>
       </div>
     </div>
 <!-- Destinations End -->
 <!--Footer Start-->
-    <div class="navbar navbar-inverse">
+    <!-- <div class="navbar navbar-inverse">
       <div class="container">
         <div class="navbar-text pull-left">
           <p>Site Built By Shradha Pulla</p>
@@ -125,7 +151,7 @@
           <a href="http://linkedin.com"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></i></a>
         </div>
       </div>
-    </div>
+    </div> -->
 <!--Footer End-->
   </body>
 </html>
