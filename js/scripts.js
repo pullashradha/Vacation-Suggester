@@ -37,7 +37,7 @@ $(function() {
     var destinationGreeting = $("input#first-name").val();
 
     $(".first-name").append(destinationGreeting);
-    $("#destinations").show();
+    $("#results").show();
 
   event.preventDefault();
   });
