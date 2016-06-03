@@ -1,6 +1,6 @@
 $(function(){
   $("form#content").sumbit(function(event) {
-    $(#japan, #peru, #south-africa, #south-korea).hide();
+    $(#japan, #peru, #south-africa).hide();
 
     var season = $("select#season").val();
     var dates = $("select#dates").val();
