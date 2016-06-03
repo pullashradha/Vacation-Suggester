@@ -21,22 +21,22 @@
     </nav>
     </div>
 <!--Nav End-->
+    <div class="jumbotron">
+      <h1>Need a Vacation?</h1>
+      <h2>Let us tell you the best place to go!</h2>
+    </div>
 <!--Questions Start-->
     <form id="content">
-      <div class="jumbotron">
-        <h1>Need a Vacation?</h1>
-        <h2>Let us tell you the best place to go!</h2>
-      </div>
       <div class="row">
 <!-- First Column Start -->
         <div class="col-sm-6">
           <div class="form-group">
             <h4><label for="first-name">First Name</label></h4>
-            <input id="first-name" type="text">
+            <input id="first-name" class="form-control" type="text">
           </div>
           <div class="form-group">
             <h4><label for="last-name">Last Name</label></h4>
-            <input id="last-name" type="text">
+            <input id="last-name" class="form-control" type="text">
           </div>
           <div id="season">
             <h4><strong>What time of year will you be travelling?</strong></h4>
@@ -114,28 +114,41 @@
               <option value="no">No</option>
             </select>
           </div>
+          <h3><button type="submit" class="btn" id="submit">Submit!</button></h3>
         </div>
       </div>
 <!-- Second Column End -->
-      <h3><button type="submit" class="btn" id="submit">Submit!</button></h3>
     </form>
 <!--Questions End-->
 <!-- Destinations Start -->
     <div id="destinations">
       <div id="japan">
         <h1>Tokyo, Japan</h1>
-        <p>Hi <span id="first-name">!</p>
-        <p>Thank you for taking our survey. Based on the information you gave us, we highly reccommend that you go on a vacation in Tokyo, Japan!</p>
-        
+        <p>Hi <span class="first-name"></span>,</p>
+        <p>Thank you for taking our quiz. Based on the information you gave us, we highly reccommend that you go on a vacation in Tokyo, Japan! Here is more information to start your trip planning started.</p>
+        <p><a href="http://www.google.com">Tokyo Sights</a></p>
+        <p><a href="http://www.google.com">Japanese Culture and Customs</a></p>
       </div>
       <div id="peru">
         <h1>Machu Picchu, Peru</h1>
+        <p>Hi <span class="first-name"></span>,</p>
+        <p>Thank you for taking our quiz. Based on the information you gave us, we highly reccommend that you go on a vacation in Machu Picchu, Peru! Here is more information to start your trip planning started.</p>
+        <p><a href="http://www.google.com">History of Machu Picchu</a></p>
+        <p><a href="http://www.google.com">Peruvian Culture and Customs</a></p>
       </div>
       <div id="south-africa">
         <h1>Johannesburg, South Africa</h1>
+        <p>Hi <span class="first-name"></span>,</p>
+        <p>Thank you for taking our quiz. Based on the information you gave us, we highly reccommend that you go on a vacation in Johannesburg, South Africa! Here is more information to start your trip planning started.</p>
+        <p><a href="http://www.google.com">Johannesburg Sights</a></p>
+        <p><a href="http://www.google.com">South African Culture and Customs</a></p>
       </div>
       <div id="switzerland">
         <h1>Zurich, Switzerland</h1>
+        <p>Hi <span class="first-name"></span>,</p>
+        <p>Thank you for taking our quiz. Based on the information you gave us, we highly reccommend that you go on a vacation in Zurich, Switzerland! Here is more information to start your trip planning started.</p>
+        <p><a href="http://www.google.com">Zurich Sights</a></p>
+        <p><a href="http://www.google.com">Swiss Culture and Customs</a></p>
       </div>
       <div id="stay-home">
         <h1>Stay Home!</h1>

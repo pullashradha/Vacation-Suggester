@@ -12,7 +12,8 @@ body {
 }
 
 .jumbotron {
-  background-color: #00CC33;
+  background-color: #006600;
+  color: white;
 }
 
 #japan, #peru, #south-africa, #switzerland, #stay-home {
@@ -23,8 +24,12 @@ h2 {
   padding-bottom: 25pt;
 }
 
-h1, h2 {
+h1, h2, p {
   text-align: center;
+}
+
+p {
+  font-size: 13pt;
 }
 
 #season, #dates, #calendar, #budget, #environment, #activities, #food, #disability {
@@ -33,6 +38,11 @@ h1, h2 {
 
 #first-name, #last-name {
   margin-bottom: 10pt;
+}
+
+#submit {
+  float: right;
+  margin-top: 35pt;
 }
 
 .navbar-inverse {
