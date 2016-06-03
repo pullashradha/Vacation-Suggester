@@ -42,20 +42,20 @@
             <h4><strong>What time of year will you be travelling?</strong></h4>
             <select class="form-control" id="season">
               <option></option>
-              <option>Spring</option>
-              <option>Summer</option>
-              <option>Fall</option>
-              <option>Winter</option>
+              <option value="spring">Spring</option>
+              <option value="summer">Summer</option>
+              <option value="fall">Fall</option>
+              <option value="winter">Winter</option>
             </select>
           </div>
           <div id="dates">
             <h4><strong>How long do you plan to stay?</strong></h4>
             <select class="form-control" id="dates">
               <option></option>
-              <option>3-5 days</option>
-              <option>1 week</option>
-              <option>2 weeks</option>
-              <option>3+ weeks</option>
+              <option value="5days">3-5 days</option>
+              <option value="1week">1 week</option>
+              <option value="2weeks">2 weeks</option>
+              <option value="3weeks">3+ weeks</option>
             </select>
           </div>
           <div class="form-group">
@@ -66,9 +66,9 @@
             <h4><strong>What is your budget (excluding airline ticket and transportation costs to destination)?</strong></h4>
             <select class="form-control" id="budget">
               <option></option>
-              <option>$500-$1000</option>
-              <option>$1000-$2000</option>
-              <option>$2000-$3000</option>
+              <option value="500">$500-$1000</option>
+              <option value="1000">$1000-$2000</option>
+              <option value="2000">$2000-$3000</option>
             </select>
           </div>
         </div>
@@ -79,38 +79,38 @@
             <h4><strong>What kind of environment would you prefer?</strong></h4>
             <select class="form-control" id="environment">
               <option></option>
-              <option>Bustling City</option>
-              <option>Bustling City and Rural Area</option>
-              <option>Rural Area</option>
+              <option value="city">Bustling City</option>
+              <option value="both">Bustling City and Rural Area</option>
+              <option value="rural">Rural Area</option>
             </select>
           </div>
-          <div id="adventure">
-            <h4><strong>What kind of actvities do you want to be available at your destination?</strong></h4>
-            <select class="form-control" id="adventure">
+          <div id="activities">
+            <h4><strong>What kind of activities do you want to be available at your destination?</strong></h4>
+            <select class="form-control" id="activities">
               <option></option>
-              <option>Museums/Historical Sites</option>
-              <option>Nature Trails/Zoos/Aquariums/Safari</option>
-              <option>Markets/Shopping/Local Nightlife</option>
+              <option value="museum">Museums/Historical Sites</option>
+              <option value="nature">Nature Trails/Zoos/Aquariums/Safari</option>
+              <option value="shopping">Markets/Shopping/Local Nightlife</option>
             </select>
           </div>
           <div id="food">
             <h4><strong>Do you have any food restrictions (non-allergic)?</strong></h4>
             <select class="form-control" id="food">
               <option></option>
-              <option>Vegan</option>
-              <option>Vegetarian</option>
-              <option>Excluding Beef</option>
-              <option>Excluding Pork</option>
-              <option>Halal/Kosher</option>
+              <option value="vegan">Vegan</option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="no-beef">Excluding Beef</option>
+              <option value="no-pork">Excluding Pork</option>
+              <option value="halal">Halal/Kosher</option>
             </select>
           </div>
           <div id="disability">
             <h4><strong>Do you need any disability access?</strong></h4>
             <select class="form-control" id="disability">
               <option></option>
-              <option>Yes, I will be travelling alone</option>
-              <option>Yes, but I will be accompanied by a companion(s) who can help</option>
-              <option>No</option>
+              <option value="yes-alone">Yes, I will be travelling alone</option>
+              <option value="yes">Yes, but I will be accompanied by a companion(s) who can help</option>
+              <option value="no">No</option>
             </select>
           </div>
         </div>
