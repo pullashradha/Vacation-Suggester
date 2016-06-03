@@ -11,16 +11,12 @@ body {
   color: #000000;
 }
 
+.jumbotron {
+  background-color: #00CC33;
+}
+
 #japan, #peru, #south-africa, #south-korea {
   display: none;
-}
-
-#disability {
-  padding-bottom: 50pt;
-}
-
-.calendar {
-  padding-bottom: 50pt;
 }
 
 h2 {
@@ -31,11 +27,19 @@ h1, h2 {
   text-align: center;
 }
 
+#season, #dates, #calendar, #budget, #environment, #adventure, #food, #disability {
+  margin-bottom: 20pt;
+}
+
+#first-name, #last-name {
+  margin-bottom: 10pt;
+}
+
 .navbar-inverse {
-  background-color: #3333FF;
-  border-color: #3333FF;
+  background-color: #006600;
+  border-color: #006600;
 }
 
 .fa-facebook-official, .fa-twitter, .fa-pinterest, .fa-instagram {
-  color: #000000
+  color: #000000;
 }
