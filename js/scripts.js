@@ -1,6 +1,6 @@
 $(function() {
   $("form#content").submit(function(event) {
-    // $(#japan, #peru, #south-africa, #switzerland, #stay-home).hide();
+    
     var firstName = $("input#first-name").val();
     var lastName = $("input#last-name").val();
     var season = $("select#season").val();

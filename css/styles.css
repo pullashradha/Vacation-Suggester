@@ -59,7 +59,7 @@ p {
 }
 
 #first-name, #last-name {
-  margin-bottom: 10pt;
+  margin-bottom: 16pt;
 }
 
 #submit {
@@ -69,6 +69,42 @@ p {
   color: #FFFFFF;
 }
 
-/*.btn-facebook, .fa-twitter, .fa-pinterest, .fa-instagram {
-  color: #FFFFFF;
-}*/
+label {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+span {
+  display: block;
+  margin: 0 0 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+#departure-date {
+  width: 100%;
+}
+
+#padding {
+  margin: 0 0 0px;
+}
+
+#name-padding {
+  margin: 0 0 0px;
+}
+
+#name-margin {
+  margin-bottom: -18px;
+}
+
+#table {
+  width: 100%;
+}
+
+#first {
+  padding-right: 15px;
+}

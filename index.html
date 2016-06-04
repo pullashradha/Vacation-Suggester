@@ -31,14 +31,28 @@
       <div class="row">
 <!-- First Column Start -->
         <div class="col-sm-6">
-          <div class="form-group">
-            <h4><label for="first-name">First Name</label></h4>
-            <input id="first-name" class="form-control" type="text">
-          </div>
-          <div class="form-group">
+          <table id="table">
+            <tr>
+              <td id="first">
+                <div class="form-group">
+                  <h4><label for="first-name" id="name-margin">
+                    <span id="name-padding">First Name</span><input id="first-name" class="form-control" type="text">
+                  </label></h4>
+                </div>
+              </td>
+              <td>
+                <div class="form-group">
+                  <h4><label for="last-name" id="name-margin">
+                    <span id="name-padding">Last Name</span><input id="last-name" class="form-control" type="text">
+                  </label></h4>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <!-- <div class="form-group">
             <h4><label for="last-name">Last Name</label></h4>
             <input id="last-name" class="form-control" type="text">
-          </div>
+          </div> -->
           <div id="season">
             <h4><strong>What time of year will you be travelling?</strong></h4>
             <select class="form-control" id="season">
@@ -60,8 +74,9 @@
             </select>
           </div>
           <div class="form-group">
-            <h4><label for="born">Travel Dates</label></h4>
-            <input id="calendar" class="form-control" type="date">
+            <h4><label for="born" id="departure-date">
+              <span id="padding">Departure Date</span><input id="calendar" class="form-control" type="date">
+            </label></h4>
           </div>
           <div id="budget">
             <h4><strong>What is your budget (excluding airline ticket and transportation costs to destination)?</strong></h4>
