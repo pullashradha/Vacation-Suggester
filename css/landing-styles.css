@@ -16,7 +16,17 @@ body {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
+#sticky-social {
+  position: fixed;
+  top: 80px;
+  left: -40px;
+}
+
 .navbar-inverse {
-  background-color: #600000;
-  border-color: #600000;
+  background-color: #000000;
+  border-color: #000000;
 }
