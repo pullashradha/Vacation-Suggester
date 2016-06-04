@@ -18,7 +18,7 @@ body {
   margin-bottom: 0px;
 }
 
-#japan, #peru, #south-africa,  #switzerland, #stay-home {
+#japan, #peru, #south-africa, #switzerland, #stay-home {
   display: none;
 }
 
@@ -107,4 +107,9 @@ h4 {
 
 #first {
   padding-right: 15px;
+}
+
+.navbar-inverse {
+  background-color: #000000;
+  color:  #000000;
 }
