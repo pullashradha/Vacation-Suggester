@@ -4,187 +4,21 @@
 <!-- Link Bootstrap, Font Awesome, CSS and jQuery Start -->
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="bootstrap-social/bootstrap-social.css" rel="stylesheet" type="text/css">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/jquery-1.12.4.js"></script>
-    <script src="js/scripts.js"></script>
+    <script href="js/jquery-1.12.4.js"></script>
+    <script href="js/lscripts.js"></script>
 <!-- Link Bootstrap, Font Awesome, CSS and jQuery End -->
     <title>Vacation Suggester</title>
   </head>
   <body>
-<!--Nav Start-->
-    <div class="nav">
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-      </nav>
+<!-- Jumbotron Start -->
+    <div class="jumbotron">
+      <h1><strong>Where do you want to travel to?</strong></h1>
+      <h2>Take our survey and find out!</h2>
+      <a href="survey.html"><button type="button" class="btn btn-default" id="survey">Survey</button></a>
     </div>
-<!--Nav End-->
-<!--Survey Questions Start-->
-    <form id="content">
-      <div class="row">
-<!-- First Column Start -->
-        <div class="col-sm-6">
-          <table id="table">
-            <tr>
-              <td id="first">
-                <div class="form-group">
-                  <h4><label for="first-name" id="name-margin">
-                    <span id="name-padding">First Name</span><input id="first-name" class="form-control" type="text">
-                  </label></h4>
-                </div>
-              </td>
-              <td>
-                <div class="form-group">
-                  <h4><label for="last-name" id="name-margin">
-                    <span id="name-padding">Last Name</span><input id="last-name" class="form-control" type="text">
-                  </label></h4>
-                </div>
-              </td>
-            </tr>
-          </table>
-          <div id="season">
-            <h4><strong>What time of year will you be travelling?</strong></h4>
-            <select class="form-control" id="season">
-              <option></option>
-              <option value="spring">Spring</option>
-              <option value="summer">Summer</option>
-              <option value="fall">Fall</option>
-              <option value="winter">Winter</option>
-            </select>
-          </div>
-          <div id="dates">
-            <h4><strong>How long do you plan to stay?</strong></h4>
-            <select class="form-control" id="dates">
-              <option></option>
-              <option value="5days">3-5 days</option>
-              <option value="1week">1 week</option>
-              <option value="2weeks">2 weeks</option>
-              <option value="3weeks">3+ weeks</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <h4><label for="born" id="departure-date">
-              <span id="padding">Departure Date</span><input id="calendar" class="form-control" type="date">
-            </label></h4>
-          </div>
-          <div id="budget">
-            <h4><strong>What is your budget (excluding airline ticket and transportation costs to destination)?</strong></h4>
-            <select class="form-control" id="budget">
-              <option></option>
-              <option value="500">$500</option>
-              <option value="1000">$1000</option>
-              <option value="2000">$2000</option>
-              <option value="3000">$3000+</option>
-            </select>
-          </div>
-        </div>
-<!-- First Column End -->
-<!-- Second Column Start -->
-        <div class="col-sm-6">
-          <div id="environment">
-            <h4><strong>What kind of environment would you prefer?</strong></h4>
-            <select class="form-control" id="environment">
-              <option></option>
-              <option value="city">Bustling City</option>
-              <option value="both">Bustling City and Rural Area</option>
-              <option value="rural">Rural Area</option>
-            </select>
-          </div>
-          <div id="activities">
-            <h4><strong>What kind of activities do you want to be available at your destination?</strong></h4>
-            <select class="form-control" id="activities">
-              <option></option>
-              <option value="museum">Museums/Historical Sites</option>
-              <option value="nature">Nature Trails/Zoos/Aquariums/Safari</option>
-              <option value="shopping">Shopping/Local Nightlife</option>
-            </select>
-          </div>
-          <div id="food">
-            <h4><strong>Do you have any food restrictions (non-allergic)?</strong></h4>
-            <select class="form-control" id="food">
-              <option></option>
-              <option value="vegan">Vegan</option>
-              <option value="vegetarian">Vegetarian</option>
-              <option value="no-beef">Excluding Beef</option>
-              <option value="no-pork">Excluding Pork</option>
-              <option value="halal">Halal/Kosher</option>
-            </select>
-          </div>
-          <div id="disability">
-            <h4><strong>Do you need any disability accommodations?</strong></h4>
-            <select class="form-control" id="disability">
-              <option></option>
-              <option value="yes-alone">Yes, I will be travelling alone</option>
-              <option value="yes">Yes, but I will be accompanied by a companion(s) who can help</option>
-              <option value="no">No</option>
-            </select>
-          </div>
-          <h3><button type="submit" class="btn" id="submit">Submit!</button></h3>
-        </div>
-      </div>
-<!-- Second Column End -->
-    </form>
-<!--Survey Questions End-->
-<!-- Results Start -->
-    <div id="results">
-<!-- Japan Start -->
-      <div id="japan">
-        <h1>Tokyo, Japan</h1>
-        <p>Hi <span class="first-name"></span>,</p>
-        <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Tokyo, Japan!</p>
-        <p>Here is more information to get your trip planning started.</p>
-        <div id="links">
-          <p><a href="http://www.google.com">Tokyo Sights</a></p>
-          <p><a href="http://www.google.com">Japanese Culture and Customs</a></p>
-        </div>
-        <img src="img/japan1.jpg" alt="A picture of Tokyo, Japan" class="img-fluid"/>
-      </div>
-<!-- Japan End -->
-<!-- Peru Start -->
-      <div id="peru">
-        <h1>Machu Picchu, Peru</h1>
-        <p>Hi <span class="first-name"></span>,</p>
-        <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Machu Picchu, Peru!</p>
-        <p>Here is more information to get your trip planning started.</p>
-        <div id="links">
-          <p><a href="http://www.google.com">History of Machu Picchu</a></p>
-          <p><a href="http://www.google.com">Peruvian Culture and Customs</a></p>
-        </div>
-        <img src="img/peru1.jpg" alt="A picture of Machu Picchu, Peru." class="img-fluid"/>
-      </div>
-<!-- Peru End -->
-<!-- South Africa Start -->
-      <div id="south-africa">
-        <h1>Johannesburg, South Africa</h1>
-        <p>Hi <span class="first-name"></span>,</p>
-        <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Johannesburg, South Africa!</p>
-        <p>Here is more information to get your trip planning started.</p>
-        <div id="links">
-          <p><a href="http://www.google.com">Johannesburg Sights</a></p>
-          <p><a href="http://www.google.com">South African Culture and Customs</a></p>
-        </div>
-        <img src="img/johannesburg2.jpg" alt="A picture of Johannesburg, South Africa." class="img-fluid"/>
-      </div>
-<!-- South Africa End -->
-<!-- Switzerland Start -->
-      <div id="switzerland">
-        <h1><strong>Zurich, Switzerland</strong></h1>
-        <p>Hi <span class="first-name"></span>,</p>
-        <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Zurich, Switzerland!</p>
-        <p>Here is more information to get your trip planning started.</p>
-        <div id="links">
-          <p><a href="http://www.google.com">Zurich Sights</a></p>
-          <p><a href="http://www.google.com">Swiss Culture and Customs</a></p>
-        </div>
-        <img src="img/zurich2.jpg" alt="A picture of Zurich, Switzerland." class="img-fluid"/>
-      </div>
-<!-- Switzerland End -->
-      <div id="stay-home">
-        <h1>Stay Home!</h1>
-        <p id="links">Sometimes a great vacation means staying at home and spending time with your family and friends.</p>
-        <img src="img/stay-home1.jpg" alt="A picture of a cozy bed." class="img-fluid"/>
-      </div>
-    </div>
-<!-- Results End -->
+<!-- Jumbotron End -->
 <!-- Social Icons Bar Start -->
     <aside id="sticky-social">
       <ul>
@@ -195,13 +29,5 @@
       </ul>
     </aside>
 <!-- Social Icons Bar End -->
-<!--Footer Start-->
-    <div class="navbar navbar-inverse navbar-fixed-bottom">
-      <div class="container">
-        <div class="navbar-text pull-left">
-          <p>Site built by Shradha Pulla</p>
-      </div>
-    </div>
-<!--Footer End-->
   </body>
 </html>

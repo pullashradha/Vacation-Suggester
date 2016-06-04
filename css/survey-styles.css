@@ -1,0 +1,126 @@
+body {
+  font-family: monospace;
+  color: #000000;
+}
+
+#content {
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 140px;
+}
+
+.jumbotron {
+  background-color: #FFFFFF;
+  color:  #000000;
+  margin-top: 75px;
+  margin-bottom: 0px;
+}
+
+#japan, #peru, #south-africa, #switzerland, #stay-home {
+  display: none;
+}
+
+#links {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#results {
+  padding-top: 100px;
+}
+
+h2 {
+  padding-bottom: 25pt;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1 {
+  font-size: 40pt;
+  padding-bottom: 45px;
+}
+
+p {
+  font-size: 15pt;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+#season, #dates, #calendar, #budget, #environment, #activities, #food, #disability {
+  margin-bottom: 20pt;
+}
+
+#first-name, #last-name {
+  margin-bottom: 16pt;
+}
+
+#submit {
+  float: right;
+  margin-top: 25pt;
+  background-color: #990066;
+  color: #FFFFFF;
+  font-size: 15pt;
+}
+
+label {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+span {
+  display: block;
+  margin: 0 0 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+#departure-date {
+  width: 100%;
+}
+
+#padding {
+  margin: 0 0 0px;
+}
+
+#name-padding {
+  margin: 0 0 0px;
+}
+
+#name-margin {
+  margin-bottom: -18px;
+}
+
+#table {
+  width: 100%;
+}
+
+#first {
+  padding-right: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+#sticky-social {
+  position: fixed;
+  top: 80px;
+  left: -40px;
+}
+
+.navbar-inverse {
+  background-color: #888888;
+  border-color: #888888;
+  color:  #000000;
+}
