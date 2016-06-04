@@ -1,5 +1,5 @@
 body {
-  font-family: serif;
+  font-family: monospace;
 }
 
 .jumbotron {
@@ -14,6 +14,17 @@ body {
 
 #background {
   max-width: 100%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+#survey {
+  margin-top: 60px;
+  font-size: 20pt;
+  background-color: #990066;
+  color: #FFFFFF;
 }
 
 ul {
