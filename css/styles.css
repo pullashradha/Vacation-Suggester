@@ -65,13 +65,10 @@ p {
 #submit {
   float: right;
   margin-top: 35pt;
+  background-color: #009900;
+  color: #FFFFFF;
 }
 
-.navbar-inverse {
-  background-color: #006600;
-  border-color: #006600;
-}
-
-.fa-facebook-official, .fa-twitter, .fa-pinterest, .fa-instagram {
-  color: #000000;
-}
+/*.btn-facebook, .fa-twitter, .fa-pinterest, .fa-instagram {
+  color: #FFFFFF;
+}*/
