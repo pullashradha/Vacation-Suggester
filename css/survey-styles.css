@@ -86,6 +86,11 @@ p {
   margin-top: 8px;
 }
 
+#first-error, #last-error {
+  display: none;
+  color: #FF0000;
+}
+
 #submit {
   float: right;
   margin-top: 25pt;

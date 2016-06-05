@@ -23,20 +23,28 @@
       <div class="row">
 <!-- First Column Start -->
         <div class="col-sm-6">
+  <!-- Names Start -->
           <table id="table">
             <tr>
               <td id="first">
-                <div class="form-group">
-                  <h4><label for="first-name">First Name<input id="first-name" class="form-control" type="text"></label></h4>
+                <div class="form-group" id="first-no-error">
+                  <h4><label for="first-name" value="first-name">First Name<input id="first-name" class="form-control" type="text"></label></h4>
+                </div>
+                <div class="form-group has-error has-feedback" id="first-error">
+                  <h4><label class="control-label" for="inputError2">First Name<input type="text" class="form-control" id="first-name" aria-describedby="inputError2Status"><span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span><span id="inputError2Status" class="sr-only">(error)</span></label></h4>
                 </div>
               </td>
               <td>
-                <div class="form-group">
-                  <h4><label for="last-name">Last Name<input id="last-name" class="form-control" type="text"></label></h4>
+                <div class="form-group" id="last-no-error">
+                  <h4><label for="last-name" value="last-name">Last Name<input id="last-name" class="form-control" type="text"></label></h4>
+                </div>
+                <div class="form-group has-error has-feedback" id="last-error">
+                  <h4><label class="control-label" for="inputError2">Last Name<input type="text" class="form-control" id="last-name" aria-describedby="inputError2Status"><span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span><span id="inputError2Status" class="sr-only">(error)</span></label></h4>
                 </div>
               </td>
             </tr>
           </table>
+  <!-- Names End -->
           <div id="season">
             <h4><strong>What time of year will you be travelling?</strong></h4>
             <select class="form-control" id="season">

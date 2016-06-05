@@ -1,6 +1,6 @@
 $(function() {
   $("form#content").submit(function(event) {
-    
+
     var firstName = $("input#first-name").val();
     var lastName = $("input#last-name").val();
     var season = $("select#season").val();
@@ -32,6 +32,7 @@ $(function() {
 
     } else {
       alert("Fill out every section!");
+
     };
 
     var destinationGreeting = $("input#first-name").val();
@@ -42,7 +43,3 @@ $(function() {
   event.preventDefault();
   });
 });
-
-
-
-// (season === "spring" || season === "summer" || season === "fall" || season === "winter" && dates === "5days" || dates === "1week" || dates === "2weeks" || dates === "3weeks" && budget === "500" || budget === "1000" || budget === "2000" || budget === "3000" && environment === "city" || environment === "both" || environment === "rural" && activities === "museum" || activities === "nature" || activities === "shopping") {
