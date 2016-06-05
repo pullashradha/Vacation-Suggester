@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
   color: #000000;
-  background-image: url("../img/map.jpg");
+  background-image: url("../img/coffee.jpg");
   background-size: cover;
   text-align: center;
   width: 100%;
@@ -31,9 +31,4 @@ ul {
   position: fixed;
   top: 80px;
   left: -40px;
-}
-
-.navbar-inverse {
-  background-color: #000000;
-  border-color: #000000;
 }
