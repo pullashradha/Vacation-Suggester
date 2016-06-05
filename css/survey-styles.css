@@ -10,24 +10,54 @@ body {
   padding-top: 140px;
 }
 
-.jumbotron {
-  background-color: #FFFFFF;
-  color:  #000000;
-  margin-top: 75px;
-  margin-bottom: 0px;
-}
-
 #japan, #peru, #south-africa, #switzerland, #stay-home {
   display: none;
+}
+
+.jumbotron {
+  text-align: center;
+  padding-top: 250px;
+  color: #FFFFFF;
+}
+
+#japan {
+  background-image: url("../img/japan1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#peru {
+  background-image: url("../img/peru1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#south-africa {
+  background-image: url("../img/johannesburg2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#switzerland {
+  background-image: url("../img/zurich2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#stay-home {
+  background-image: url("../img/stay-home1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 #links {
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-#results {
-  padding-top: 100px;
 }
 
 h2 {
@@ -45,12 +75,6 @@ h1 {
 
 p {
   font-size: 15pt;
-}
-
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 30px;
 }
 
 #season, #dates, #calendar, #budget, #environment, #activities, #food, #disability {
@@ -74,12 +98,12 @@ label {
   margin: 0 0 0 0;
 }
 
-span {
+/*span {
   display: block;
   margin: 0 0 10px;
   font-weight: bold;
   padding-bottom: 10px;
-}
+}*/
 
 h4 {
   margin-bottom: 10px;
