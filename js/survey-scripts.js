@@ -11,7 +11,7 @@ $(function() {
     var food = $("select#food").val();
     var disability = $("select#disability").val();
 
-    if (firstName && lastName && season && dates && budget && environment && activities && food && disability) {
+    if (season && dates && budget && environment && activities && food && disability) {
 
       if (season === "summer" && dates === "5days" || dates === "1week" && budget === "500" || budget === "1000" && environment === "rural" && activities === "nature") {
         $("#peru").show();

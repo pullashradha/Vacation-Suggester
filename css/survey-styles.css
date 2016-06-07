@@ -85,11 +85,6 @@ body {
   padding-bottom: 20px;
 }
 
-#links {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 h2 {
   padding-bottom: 25pt;
 }
@@ -141,15 +136,6 @@ h4 {
 
 #calendar {
   margin-top: 10px;
-}
-
-#table {
-  width: 100%;
-  margin-top: 2px;
-}
-
-#first {
-  padding-right: 15px;
 }
 
 ul {
