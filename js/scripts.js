@@ -35,7 +35,9 @@ $(document).ready(function(event) {
         $("#stay-home").show();
         $(".home-btn").show();
         $("#content").hide();
-      };
+      }
+    } else {
+      alert("Fill out every section!");
     };
     var destinationGreeting = $("input#first-name").val();
     $(".first-name").append(destinationGreeting);
