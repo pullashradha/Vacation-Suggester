@@ -6,19 +6,174 @@
     <link href="css/bootstrap-social.css" rel="stylesheet" type="text/css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script href="js/jquery-1.12.4.js"></script>
-    <script href="js/scripts.js"></script>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
 <!-- Link Bootstrap, Font Awesome, CSS and jQuery End -->
     <title>Vacation Suggester</title>
   </head>
   <body>
-<!-- Jumbotron Start -->
-    <div class="jumbotron">
+<!--Nav Start-->
+    <div class="nav">
+      <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
+      </nav>
+    </div>
+<!--Nav End-->
+<!-- Intro Page Start -->
+    <div class="jumbotron" id="intro-page">
       <h1><strong>Where should you travel to?</strong></h1>
       <h2>Take our survey and find out!</h2>
-      <a href="survey.html"><button type="button" class="btn btn-default" id="survey">Survey</button></a>
+      <button type="btn" class="btn btn-default" id="to-survey">Survey</button>
     </div>
-<!-- Jumbotron End -->
+<!-- Intro Page End -->
+<!--Survey Questions Start-->
+    <form id="content">
+      <div class="row">
+<!-- First Column Start -->
+        <div class="col-sm-6">
+  <!-- Names Start -->
+          <div class="row">
+            <div class="col-xs-6">
+              <div class="form-group" id="first-no-error">
+                <h4><label for="first-name" value="first-name">First Name<input required id="first-name" class="form-control" type="text"></label></h4>
+              </div>
+            </div>
+            <div class="col-xs-6">
+              <div class="form-group" id="last-no-error">
+                <h4><label for="last-name" value="last-name">Last Name<input required id="last-name" class="form-control" type="text"></label></h4>
+              </div>
+            </div>
+          </div>
+  <!-- Names End -->
+          <div id="season">
+            <h4><strong>What time of year will you be travelling?</strong></h4>
+            <select required class="form-control" id="season">
+              <option></option>
+              <option value="spring">Spring</option>
+              <option value="summer">Summer</option>
+              <option value="fall">Fall</option>
+              <option value="winter">Winter</option>
+            </select>
+          </div>
+          <div id="dates">
+            <h4><strong>How long do you plan to stay?</strong></h4>
+            <select required class="form-control" id="dates">
+              <option></option>
+              <option value="5days">3-5 days</option>
+              <option value="1week">1 week</option>
+              <option value="2weeks">2 weeks</option>
+              <option value="3weeks">3+ weeks</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <h4><label for="born" id="departure-date">
+              <span id="padding">Departure Date</span><input required id="calendar" class="form-control" type="date">
+            </label></h4>
+          </div>
+          <div id="budget">
+            <h4><strong>What is your budget (excluding airline ticket and transportation costs to destination)?</strong></h4>
+            <select required class="form-control" id="budget">
+              <option></option>
+              <option value="500">$500</option>
+              <option value="1000">$1000</option>
+              <option value="2000">$2000</option>
+              <option value="3000">$3000+</option>
+            </select>
+          </div>
+        </div>
+<!-- First Column End -->
+<!-- Second Column Start -->
+        <div class="col-sm-6">
+          <div id="environment">
+            <h4><strong>What kind of environment would you prefer?</strong></h4>
+            <select required class="form-control" id="environment">
+              <option></option>
+              <option value="city">Bustling City</option>
+              <option value="both">Bustling City and Rural Area</option>
+              <option value="rural">Rural Area</option>
+            </select>
+          </div>
+          <div id="activities">
+            <h4><strong>What kind of activities do you want to be available at your destination?</strong></h4>
+            <select required class="form-control" id="activities">
+              <option></option>
+              <option value="museum">Museums/Historical Sites</option>
+              <option value="nature">Nature Trails/Zoos/Aquariums/Safari</option>
+              <option value="shopping">Shopping/Local Nightlife</option>
+            </select>
+          </div>
+          <div id="food">
+            <h4><strong>Do you have any food restrictions (non-allergic)?</strong></h4>
+            <select required class="form-control" id="food">
+              <option></option>
+              <option value="vegan">Vegan</option>
+              <option value="vegetarian">Vegetarian</option>
+              <option value="no-beef">Excluding Beef</option>
+              <option value="no-pork">Excluding Pork</option>
+              <option value="halal">Halal/Kosher</option>
+            </select>
+          </div>
+          <div id="disability">
+            <h4><strong>Do you need any disability accommodations?</strong></h4>
+            <select required class="form-control" id="disability">
+              <option></option>
+              <option value="yes-alone">Yes, I will be travelling alone</option>
+              <option value="yes">Yes, but I will be accompanied by a companion(s) who can help</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <h3><button type="submit" class="btn" id="submit">Submit!</button></h3>
+        </div>
+      </div>
+<!-- Second Column End -->
+    </form>
+<!--Survey Questions End-->
+<!-- Results Start -->
+    <div id="results">
+<!-- Japan Start -->
+      <div class="jumbotron" id="japan">
+        <div id="japan-text">
+          <h1>Tokyo, Japan</h1>
+          <p>Hi <span class="first-name"></span>,</p>
+          <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Tokyo, Japan!</p>
+        </div>
+      </div>
+<!-- Japan End -->
+<!-- Peru Start -->
+      <div class="jumbotron" id="peru">
+        <div id="peru-text">
+          <h1>Machu Picchu, Peru</h1>
+          <p>Hi <span class="first-name"></span>,</p>
+          <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Machu Picchu, Peru!</p>
+      </div>
+      </div>
+<!-- Peru End -->
+<!-- South Africa Start -->
+      <div class="jumbotron" id="south-africa">
+        <div id="south-africa-text">
+          <h1>Johannesburg, South Africa</h1>
+          <p>Hi <span class="first-name"></span>,</p>
+          <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Johannesburg, South Africa!</p>
+        </div>
+      </div>
+<!-- South Africa End -->
+<!-- Switzerland Start -->
+      <div class="jumbotron" id="switzerland">
+        <div id="switzerland-text">
+          <h1><strong>Zurich, Switzerland</strong></h1>
+          <p>Hi <span class="first-name"></span>,</p>
+          <p>Based on the information you gave us, we highly reccommend that you go on a vacation in Zurich, Switzerland!</p>
+        </div>
+      </div>
+<!-- Switzerland End -->
+      <div class="jumbotron" id="stay-home">
+        <div id="stay-home-text">
+          <h1><strong>Stay at Home!</strong></h1>
+          <p>Hi <span class="first-name"></span>,</p>
+          <p id="links">Sometimes a great vacation means staying at home and spending time with your family and friends.</p>
+        </div>
+      </div>
+    </div>
+<!-- Results End -->
 <!-- Social Icons Bar Start -->
     <aside id="sticky-social">
       <ul>
@@ -29,5 +184,13 @@
       </ul>
     </aside>
 <!-- Social Icons Bar End -->
+<!--Footer Start-->
+    <div class="navbar navbar-inverse navbar-fixed-bottom" id="footer">
+      <div class="container">
+        <div class="navbar-text pull-left">
+          <p>Site built by Shradha Pulla</p>
+      </div>
+    </div>
+<!--Footer End-->
   </body>
 </html>

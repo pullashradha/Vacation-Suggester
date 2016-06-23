@@ -1,0 +1,35 @@
+body {
+  font-family: serif;
+}
+
+#intro-page {
+  color: #000000;
+  background-image: url("../img/coffee.jpg");
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  padding-top: 20%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+#to-survey {
+  margin-top: 60px;
+  font-size: 20pt;
+  background-color: #990066;
+  border-color: #990066;
+  color: #FFFFFF;
+}
+
+ul {
+  list-style: none;
+}
+
+#sticky-social {
+  position: fixed;
+  top: 80px;
+  left: -40px;
+}
