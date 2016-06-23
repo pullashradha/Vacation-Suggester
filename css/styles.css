@@ -124,7 +124,7 @@ h1 {
   padding-bottom: 45px;
 }
 
-p {
+p, ol {
   font-size: 15pt;
 }
 
@@ -164,7 +164,7 @@ h4 {
   margin-top: 10px;
 }
 
-ul {
+ul, ol {
   list-style: none;
 }
 

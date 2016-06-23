@@ -32,7 +32,7 @@ Contact Epicodus for support in running this program.
 
 ## Links
 
-Git Hub Webpage: http://pullashradha.github.io/Vacation-Suggester
+Git Hub Webpage: https://pullashradha.github.io/Vacation-Suggester
 
 ### License
 
