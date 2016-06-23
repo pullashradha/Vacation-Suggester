@@ -36,8 +36,6 @@ $(document).ready(function(event) {
         $(".home-btn").show();
         $("#content").hide();
       };
-    } else {
-      alert("Fill out every section!");
     };
     var destinationGreeting = $("input#first-name").val();
     $(".first-name").append(destinationGreeting);
