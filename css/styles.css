@@ -17,7 +17,7 @@ h2 {
   margin-top: 50px;
 }
 
-#to-survey {
+#to-survey, .home-btn {
   margin-top: 60px;
   font-size: 20pt;
   background-color: #990066;
@@ -36,7 +36,7 @@ h2 {
   padding-top: 140px;
 }
 
-#japan, #peru, #south-africa, #switzerland, #stay-home {
+#japan, #peru, #south-africa, #switzerland, #stay-home, .home-btn {
   display: none;
 }
 
