@@ -20,7 +20,7 @@ No known bugs.
 ## Specifications
 
 The program should handle: | Example Input | Example Output
-The program will input | ----- | -----
+----- | ----- | -----
 Spec 1 | Example Input: | Example Output:
 
 ## Future Features
