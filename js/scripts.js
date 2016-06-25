@@ -1,3 +1,4 @@
+//User Interface Logic
 $(document).ready(function(event) {
   $("#to-survey").click(function() {
     $("#navbar, #footer, #content").show();

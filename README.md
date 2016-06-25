@@ -17,6 +17,19 @@ This webpage is a program developed to practice JavaScript and jQuery coding. It
 
 No known bugs.
 
+## Specifications
+
+The program should handle: | Example Input | Example Output
+The program will input | ----- | -----
+Spec 1 | Example Input: | Example Output:
+
+## Future Features
+
+HTML | CSS Styling | JavaScript
+----- | ----- | -----
+Add specs to README.md | Use a better picture for the Johannesburg result page | Shift a lot of the code to the Business Logics section
+----- | Fix the extra bottom margin on the landing page | -----
+
 ## Support and Contact Details
 
 Contact Epicodus for support in running this program.
