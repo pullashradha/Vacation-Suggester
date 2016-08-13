@@ -111,6 +111,11 @@ h2 {
   padding-bottom: 20px;
 }
 
+.home-btn:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
 h2 {
   padding-bottom: 25pt;
 }
