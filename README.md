@@ -47,7 +47,7 @@ Contact Epicodus for support in running this program.
 
 ## Links
 
-Git Hub Webpage: https://pullashradha.github.io/VacationSuggester
+Git Hub Webpage: https://pullashradha.github.io/VacationSurvey
 
 ### License
 
