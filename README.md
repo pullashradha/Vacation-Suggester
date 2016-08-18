@@ -1,4 +1,4 @@
-# Vacation Suggester Webpage
+# Vacation Suggester
 
 #### JavaScript and jQuery Independent Project for Epicodus, 06/03/2016
 
