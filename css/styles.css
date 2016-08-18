@@ -3,6 +3,14 @@ body {
   color: #000000;
 }
 
+.navbar-inverse {
+  background-color: #000000;
+  border-color: #000000;
+  color:  #000000;
+}
+
+/*----------------------------------Landing Page Styling----------------------------------*/
+
 #intro-page {
   color: #000000;
   background-image: url("../img/coffee.jpg");
@@ -29,6 +37,8 @@ h2 {
   display: none;
 }
 
+/*----------------------------------Survey Styling----------------------------------*/
+
 #content {
   padding: 20px;
   padding-left: 80px;
@@ -36,9 +46,47 @@ h2 {
   padding-top: 140px;
 }
 
+#season, #dates, #calendar, #budget, #environment, #activities, #food, #disability {
+  margin-bottom: 20pt;
+}
+
+#first-name, #last-name {
+  margin-bottom: 0px;
+  margin-top: 8px;
+}
+
+#submit {
+  float: right;
+  margin-top: 25pt;
+  background-color: #990066;
+  border-color: #990066;
+  color: #FFFFFF;
+  font-size: 15pt;
+}
+
+label {
+  width: 100%;
+  margin: 0 0 0 0;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+#departure-date {
+  width: 100%;
+  margin-bottom: -15px;
+}
+
+#calendar {
+  margin-top: 10px;
+}
+
 #japan, #peru, #south-africa, #switzerland, #stay-home, .home-btn {
   display: none;
 }
+
+/*----------------------------------Destination Pages Styling----------------------------------*/
 
 .jumbotron {
   text-align: center;
@@ -133,41 +181,7 @@ p, ol {
   font-size: 15pt;
 }
 
-#season, #dates, #calendar, #budget, #environment, #activities, #food, #disability {
-  margin-bottom: 20pt;
-}
-
-#first-name, #last-name {
-  margin-bottom: 0px;
-  margin-top: 8px;
-}
-
-#submit {
-  float: right;
-  margin-top: 25pt;
-  background-color: #990066;
-  border-color: #990066;
-  color: #FFFFFF;
-  font-size: 15pt;
-}
-
-label {
-  width: 100%;
-  margin: 0 0 0 0;
-}
-
-h4 {
-  margin-bottom: 10px;
-}
-
-#departure-date {
-  width: 100%;
-  margin-bottom: -15px;
-}
-
-#calendar {
-  margin-top: 10px;
-}
+/*----------------------------------Social Icons Styling----------------------------------*/
 
 ul, ol {
   list-style: none;
@@ -177,10 +191,4 @@ ul, ol {
   position: fixed;
   top: 80px;
   left: -40px;
-}
-
-.navbar-inverse {
-  background-color: #000000;
-  border-color: #000000;
-  color:  #000000;
 }

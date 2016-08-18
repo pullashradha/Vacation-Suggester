@@ -6,9 +6,11 @@
 
 ## Description
 
-This webpage is a program developed to practice JavaScript and jQuery coding. It is a survey that will output customized results based on the options the user has chosen.
+This program is a survey that will output customized results based on the options the user has chosen. It will recommend a destination for their next vacation.
 
 ## Setup/Installation Requirements
+
+This program can only be accessed on computer with Git and Atom installed.
 
 * Clone this repository
 * Open index.html in Terminal
@@ -28,7 +30,7 @@ Spec 1 | Example Input: | Example Output:
 HTML | CSS | JavaScript
 ----- | ----- | -----
 Add specs to README.md | Use a better picture for the Johannesburg result page | Shift a lot of the code to the Business Logics section
------ | Fix the extra bottom margin on the landing page | -----
+--- | Fix the extra bottom margin on the landing page | ---
 
 ## Support and Contact Details
 
@@ -45,7 +47,7 @@ Contact Epicodus for support in running this program.
 
 ## Links
 
-Git Hub Webpage: https://pullashradha.github.io/Vacation-Suggester
+Git Hub Webpage: https://pullashradha.github.io/VacationSuggester
 
 ### License
 
