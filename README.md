@@ -21,9 +21,9 @@ No known bugs.
 
 ## Specifications
 
-The program should handle: | Example Input | Example Output
+The program should... | Example Input | Example Output
 ----- | ----- | -----
-Spec 1 | Example Input: | Example Output:
+--- | --- | ---
 
 ## Future Features
 
