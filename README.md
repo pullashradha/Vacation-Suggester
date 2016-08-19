@@ -10,7 +10,7 @@ This program is a survey that will output customized results based on the option
 
 ## Setup/Installation Requirements
 
-This program can only be accessed on computer with Git and Atom installed.
+This program can only be accessed on a computer with Git and Atom installed.
 
 * Clone this repository
 * Open index.html in Terminal
